@@ -30,9 +30,9 @@ class NewTodoForm extends Component {
     render() {
         return (
             <form className="NewTodoForm" onSubmit={this.handleSubmit}>
+             <label htmlFor="task">New Todo</label>
                 <div>
-                    <label htmlFor="task">New Todo</label>
-                    <input
+                      <input
                         placeholder="New Todo"
                         type="text"
                         id="task"
